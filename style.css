@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: yellowgreen;
+}
+body #app {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body #app #author {
+  position: absolute;
+  top: 10px;
+}
+body #app #author span {
+  color: rgba(20, 110, 245, 0.959);
+  text-shadow: 2px 3px 3px 5px blue;
+}
+body #app .title {
+  border: 2px solid black;
+  display: block;
+  padding-block: 5px;
+  background: goldenrod;
+  width: 100%;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+body #app .edit {
+  margin-top: 50px;
+  width: 70%;
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
+  border: none;
+  max-width: 900px;
+}
+body #app .edit #editor {
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  white-space: pre-line;
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+  white-space: pre-line;
+}
+body #app .view {
+  width: 80%;
+  min-height: 300px;
+  max-width: 1200px;
+  margin-top: 30px;
+  background: rgb(178, 201, 131);
+  position: relative;
+  overflow-x: hidden;
+}
+body #app .view #preview {
+  width: 95%;
+  margin-inline: auto;
+  white-space: pre-line;
+  padding-block: 10px;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+body #app .view #preview li {
+  margin: 0;
+  line-height: 0.8;
+}
+body #app .view #preview code {
+  background-color: #fff;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  border-radius: 0.7rem;
+  padding: 5px;
+  overflow-x: auto;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+body #app .view #preview h1,
+body #app .view #preview h2 {
+  border-bottom: 1px solid black;
+  padding-block: 3px;
+}
+body #app .view #preview table,
+body #app .view #preview td,
+body #app .view #preview th {
+  border: 2px solid rgb(41, 66, 3);
+  border-collapse: collapse;
+}
+body #app .view #preview blockquote {
+  border-left: 2px solid rgb(70, 114, 4);
+  width: 50%;
+  padding-left: 10px;
+}
+body #app .view #preview ul,
+body #app .view #preview ol {
+  margin-left: 30px;
+}
+body #app .view #preview ul ul,
+body #app .view #preview ol ol,
+body #app .view #preview ul ol,
+body #app .view #preview ol ul {
+  margin-left: 20px;
+}
+body #app .view #preview img {
+  display: block;
+  max-width: 90%;
+}/*# sourceMappingURL=style.css.map */

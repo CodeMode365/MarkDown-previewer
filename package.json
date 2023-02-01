@@ -1,0 +1,17 @@
+{
+  "name": "markdown-previewer",
+  "author": "CodeMode365(Pabin)",
+  "description": "Markdown previewer as the freeCodeCamp frontend library certification project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
